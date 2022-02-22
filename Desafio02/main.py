@@ -6,7 +6,7 @@ flag = 0
 while True:   
     if (len(password)<6): 
         flag = -1
-        print("\n ⚠ Senha precisa de minimo de 8 caracteres\n")
+        print("\n ⚠ Senha precisa de minimo de 6 caracteres\n")
         break
     elif not re.search("[a-z]", password): 
         flag = -1
